@@ -84,7 +84,6 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self.personTable.reloadData()
             }
-            
         }
         catch{
             
