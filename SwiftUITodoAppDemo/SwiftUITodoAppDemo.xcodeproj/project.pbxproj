@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E3761C5263AFD9E0063A812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3761C4263AFD9E0063A812 /* AppDelegate.swift */; };
-		6E3761C7263AFD9E0063A812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3761C6263AFD9E0063A812 /* SceneDelegate.swift */; };
-		6E3761C9263AFD9E0063A812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3761C8263AFD9E0063A812 /* ViewController.swift */; };
-		6E3761CC263AFD9E0063A812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3761CA263AFD9E0063A812 /* Main.storyboard */; };
-		6E3761CE263AFD9F0063A812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3761CD263AFD9F0063A812 /* Assets.xcassets */; };
-		6E3761D1263AFD9F0063A812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3761CF263AFD9F0063A812 /* LaunchScreen.storyboard */; };
-		6E3761E1263BD3750063A812 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3761E0263BD3750063A812 /* Person.swift */; };
-		6E3761E5263BD5230063A812 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3761E4263BD5230063A812 /* DBHelper.swift */; };
+		6EF0D5E9265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D5E8265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift */; };
+		6EF0D5ED265FAB7F00AD6010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0D5EC265FAB7F00AD6010 /* Assets.xcassets */; };
+		6EF0D5F0265FAB7F00AD6010 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0D5EF265FAB7F00AD6010 /* Preview Assets.xcassets */; };
+		6EF0D5FB265FAC9B00AD6010 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D5FA265FAC9B00AD6010 /* TodoListView.swift */; };
+		6EF0D5FF265FACA700AD6010 /* TodoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D5FE265FACA700AD6010 /* TodoListItemView.swift */; };
+		6EF0D603265FACC500AD6010 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D602265FACC500AD6010 /* AddTaskView.swift */; };
+		6EF0D6372660CADA00AD6010 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D6362660CADA00AD6010 /* TaskModel.swift */; };
+		6EF0D6442660D15F00AD6010 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D6432660D15F00AD6010 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E3761C1263AFD9E0063A812 /* SqliteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E3761C4263AFD9E0063A812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E3761C6263AFD9E0063A812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E3761C8263AFD9E0063A812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E3761CB263AFD9E0063A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E3761CD263AFD9F0063A812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E3761D0263AFD9F0063A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6E3761D2263AFD9F0063A812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E3761E0263BD3750063A812 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		6E3761E4263BD5230063A812 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		6EF0D5E5265FAB7E00AD6010 /* SwiftUITodoAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITodoAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF0D5E8265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITodoAppDemoApp.swift; sourceTree = "<group>"; };
+		6EF0D5EC265FAB7F00AD6010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EF0D5EF265FAB7F00AD6010 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EF0D5F1265FAB7F00AD6010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF0D5FA265FAC9B00AD6010 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		6EF0D5FE265FACA700AD6010 /* TodoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemView.swift; sourceTree = "<group>"; };
+		6EF0D602265FACC500AD6010 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		6EF0D6362660CADA00AD6010 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		6EF0D6432660D15F00AD6010 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E3761BE263AFD9E0063A812 /* Frameworks */ = {
+		6EF0D5E2265FAB7E00AD6010 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,113 +41,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E3761B8263AFD9E0063A812 = {
+		6EF0D5DC265FAB7E00AD6010 = {
 			isa = PBXGroup;
 			children = (
-				6E3761C3263AFD9E0063A812 /* SqliteDemo */,
-				6E3761C2263AFD9E0063A812 /* Products */,
+				6EF0D5E7265FAB7E00AD6010 /* SwiftUITodoAppDemo */,
+				6EF0D5E6265FAB7E00AD6010 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6E3761C2263AFD9E0063A812 /* Products */ = {
+		6EF0D5E6265FAB7E00AD6010 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761C1263AFD9E0063A812 /* SqliteDemo.app */,
+				6EF0D5E5265FAB7E00AD6010 /* SwiftUITodoAppDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E3761C3263AFD9E0063A812 /* SqliteDemo */ = {
+		6EF0D5E7265FAB7E00AD6010 /* SwiftUITodoAppDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761DF263BD3660063A812 /* Database */,
-				6E3761DE263BD35F0063A812 /* Model */,
-				6E3761D2263AFD9F0063A812 /* Info.plist */,
-				6E3761D9263AFDB90063A812 /* App */,
-				6E3761DC263BD2150063A812 /* ViewControllers */,
-				6E3761DA263BD1FC0063A812 /* Assets */,
+				6EF0D5F8265FAC4400AD6010 /* App */,
+				6EF0D6352660CAC800AD6010 /* Model */,
+				6EF0D6402660CF6300AD6010 /* ViewModel */,
+				6EF0D5F9265FAC7900AD6010 /* Views */,
+				6EF0D601265FACAD00AD6010 /* Utils */,
+				6EF0D5EC265FAB7F00AD6010 /* Assets.xcassets */,
+				6EF0D5F1265FAB7F00AD6010 /* Info.plist */,
+				6EF0D5EE265FAB7F00AD6010 /* Preview Content */,
 			);
-			path = SqliteDemo;
+			path = SwiftUITodoAppDemo;
 			sourceTree = "<group>";
 		};
-		6E3761D9263AFDB90063A812 /* App */ = {
+		6EF0D5EE265FAB7F00AD6010 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761C4263AFD9E0063A812 /* AppDelegate.swift */,
-				6E3761C6263AFD9E0063A812 /* SceneDelegate.swift */,
+				6EF0D5EF265FAB7F00AD6010 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EF0D5F8265FAC4400AD6010 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6EF0D5E8265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		6E3761DA263BD1FC0063A812 /* Assets */ = {
+		6EF0D5F9265FAC7900AD6010 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761CA263AFD9E0063A812 /* Main.storyboard */,
-				6E3761CD263AFD9F0063A812 /* Assets.xcassets */,
-				6E3761CF263AFD9F0063A812 /* LaunchScreen.storyboard */,
+				6EF0D5FA265FAC9B00AD6010 /* TodoListView.swift */,
+				6EF0D5FE265FACA700AD6010 /* TodoListItemView.swift */,
+				6EF0D602265FACC500AD6010 /* AddTaskView.swift */,
 			);
-			path = Assets;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		6E3761DC263BD2150063A812 /* ViewControllers */ = {
+		6EF0D601265FACAD00AD6010 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761C8263AFD9E0063A812 /* ViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Utils;
 			sourceTree = "<group>";
 		};
-		6E3761DE263BD35F0063A812 /* Model */ = {
+		6EF0D6352660CAC800AD6010 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761E0263BD3750063A812 /* Person.swift */,
+				6EF0D6362660CADA00AD6010 /* TaskModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		6E3761DF263BD3660063A812 /* Database */ = {
+		6EF0D6402660CF6300AD6010 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				6E3761E4263BD5230063A812 /* DBHelper.swift */,
+				6EF0D6432660D15F00AD6010 /* ListViewModel.swift */,
 			);
-			path = Database;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E3761C0263AFD9E0063A812 /* SqliteDemo */ = {
+		6EF0D5E4265FAB7E00AD6010 /* SwiftUITodoAppDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E3761D5263AFD9F0063A812 /* Build configuration list for PBXNativeTarget "SqliteDemo" */;
+			buildConfigurationList = 6EF0D5F4265FAB7F00AD6010 /* Build configuration list for PBXNativeTarget "SwiftUITodoAppDemo" */;
 			buildPhases = (
-				6E3761BD263AFD9E0063A812 /* Sources */,
-				6E3761BE263AFD9E0063A812 /* Frameworks */,
-				6E3761BF263AFD9E0063A812 /* Resources */,
+				6EF0D5E1265FAB7E00AD6010 /* Sources */,
+				6EF0D5E2265FAB7E00AD6010 /* Frameworks */,
+				6EF0D5E3265FAB7E00AD6010 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SqliteDemo;
-			productName = SqliteDemo;
-			productReference = 6E3761C1263AFD9E0063A812 /* SqliteDemo.app */;
+			name = SwiftUITodoAppDemo;
+			productName = SwiftUITodoAppDemo;
+			productReference = 6EF0D5E5265FAB7E00AD6010 /* SwiftUITodoAppDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6E3761B9263AFD9E0063A812 /* Project object */ = {
+		6EF0D5DD265FAB7E00AD6010 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					6E3761C0263AFD9E0063A812 = {
+					6EF0D5E4265FAB7E00AD6010 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 6E3761BC263AFD9E0063A812 /* Build configuration list for PBXProject "SqliteDemo" */;
+			buildConfigurationList = 6EF0D5E0265FAB7E00AD6010 /* Build configuration list for PBXProject "SwiftUITodoAppDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,65 +163,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 6E3761B8263AFD9E0063A812;
-			productRefGroup = 6E3761C2263AFD9E0063A812 /* Products */;
+			mainGroup = 6EF0D5DC265FAB7E00AD6010;
+			productRefGroup = 6EF0D5E6265FAB7E00AD6010 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E3761C0263AFD9E0063A812 /* SqliteDemo */,
+				6EF0D5E4265FAB7E00AD6010 /* SwiftUITodoAppDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E3761BF263AFD9E0063A812 /* Resources */ = {
+		6EF0D5E3265FAB7E00AD6010 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3761D1263AFD9F0063A812 /* LaunchScreen.storyboard in Resources */,
-				6E3761CE263AFD9F0063A812 /* Assets.xcassets in Resources */,
-				6E3761CC263AFD9E0063A812 /* Main.storyboard in Resources */,
+				6EF0D5F0265FAB7F00AD6010 /* Preview Assets.xcassets in Resources */,
+				6EF0D5ED265FAB7F00AD6010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E3761BD263AFD9E0063A812 /* Sources */ = {
+		6EF0D5E1265FAB7E00AD6010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3761C9263AFD9E0063A812 /* ViewController.swift in Sources */,
-				6E3761C5263AFD9E0063A812 /* AppDelegate.swift in Sources */,
-				6E3761E5263BD5230063A812 /* DBHelper.swift in Sources */,
-				6E3761E1263BD3750063A812 /* Person.swift in Sources */,
-				6E3761C7263AFD9E0063A812 /* SceneDelegate.swift in Sources */,
+				6EF0D6372660CADA00AD6010 /* TaskModel.swift in Sources */,
+				6EF0D6442660D15F00AD6010 /* ListViewModel.swift in Sources */,
+				6EF0D603265FACC500AD6010 /* AddTaskView.swift in Sources */,
+				6EF0D5E9265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift in Sources */,
+				6EF0D5FF265FACA700AD6010 /* TodoListItemView.swift in Sources */,
+				6EF0D5FB265FAC9B00AD6010 /* TodoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		6E3761CA263AFD9E0063A812 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3761CB263AFD9E0063A812 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6E3761CF263AFD9F0063A812 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E3761D0263AFD9F0063A812 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		6E3761D3263AFD9F0063A812 /* Debug */ = {
+		6EF0D5F2265FAB7F00AD6010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		6E3761D4263AFD9F0063A812 /* Release */ = {
+		6EF0D5F3265FAB7F00AD6010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -329,36 +318,42 @@
 			};
 			name = Release;
 		};
-		6E3761D6263AFD9F0063A812 /* Debug */ = {
+		6EF0D5F5265FAB7F00AD6010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SqliteDemo/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITodoAppDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUITodoAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.descifrador.SqliteDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.descifrador.SwiftUITodoAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6E3761D7263AFD9F0063A812 /* Release */ = {
+		6EF0D5F6265FAB7F00AD6010 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SqliteDemo/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITodoAppDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUITodoAppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.descifrador.SqliteDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.descifrador.SwiftUITodoAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -368,25 +363,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E3761BC263AFD9E0063A812 /* Build configuration list for PBXProject "SqliteDemo" */ = {
+		6EF0D5E0265FAB7E00AD6010 /* Build configuration list for PBXProject "SwiftUITodoAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E3761D3263AFD9F0063A812 /* Debug */,
-				6E3761D4263AFD9F0063A812 /* Release */,
+				6EF0D5F2265FAB7F00AD6010 /* Debug */,
+				6EF0D5F3265FAB7F00AD6010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E3761D5263AFD9F0063A812 /* Build configuration list for PBXNativeTarget "SqliteDemo" */ = {
+		6EF0D5F4265FAB7F00AD6010 /* Build configuration list for PBXNativeTarget "SwiftUITodoAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6E3761D6263AFD9F0063A812 /* Debug */,
-				6E3761D7263AFD9F0063A812 /* Release */,
+				6EF0D5F5265FAB7F00AD6010 /* Debug */,
+				6EF0D5F6265FAB7F00AD6010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6E3761B9263AFD9E0063A812 /* Project object */;
+	rootObject = 6EF0D5DD265FAB7E00AD6010 /* Project object */;
 }
