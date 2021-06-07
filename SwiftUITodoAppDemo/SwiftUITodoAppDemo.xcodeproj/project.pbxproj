@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E928D872667A54700D16E76 /* SwiftUITodoAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E928D862667A54700D16E76 /* SwiftUITodoAppDemoTests.swift */; };
 		6EF0D5E9265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D5E8265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift */; };
 		6EF0D5ED265FAB7F00AD6010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0D5EC265FAB7F00AD6010 /* Assets.xcassets */; };
 		6EF0D5F0265FAB7F00AD6010 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0D5EF265FAB7F00AD6010 /* Preview Assets.xcassets */; };
@@ -17,7 +18,20 @@
 		6EF0D6442660D15F00AD6010 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF0D6432660D15F00AD6010 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6E928D892667A54700D16E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EF0D5DD265FAB7E00AD6010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EF0D5E4265FAB7E00AD6010;
+			remoteInfo = SwiftUITodoAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6E928D842667A54700D16E76 /* SwiftUITodoAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITodoAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E928D862667A54700D16E76 /* SwiftUITodoAppDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITodoAppDemoTests.swift; sourceTree = "<group>"; };
+		6E928D882667A54700D16E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EF0D5E5265FAB7E00AD6010 /* SwiftUITodoAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITodoAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF0D5E8265FAB7E00AD6010 /* SwiftUITodoAppDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITodoAppDemoApp.swift; sourceTree = "<group>"; };
 		6EF0D5EC265FAB7F00AD6010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6E928D812667A54700D16E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EF0D5E2265FAB7E00AD6010 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E928D852667A54700D16E76 /* SwiftUITodoAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E928D862667A54700D16E76 /* SwiftUITodoAppDemoTests.swift */,
+				6E928D882667A54700D16E76 /* Info.plist */,
+			);
+			path = SwiftUITodoAppDemoTests;
+			sourceTree = "<group>";
+		};
 		6EF0D5DC265FAB7E00AD6010 = {
 			isa = PBXGroup;
 			children = (
 				6EF0D5E7265FAB7E00AD6010 /* SwiftUITodoAppDemo */,
+				6E928D852667A54700D16E76 /* SwiftUITodoAppDemoTests */,
 				6EF0D5E6265FAB7E00AD6010 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				6EF0D5E5265FAB7E00AD6010 /* SwiftUITodoAppDemo.app */,
+				6E928D842667A54700D16E76 /* SwiftUITodoAppDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +156,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6E928D832667A54700D16E76 /* SwiftUITodoAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E928D8B2667A54700D16E76 /* Build configuration list for PBXNativeTarget "SwiftUITodoAppDemoTests" */;
+			buildPhases = (
+				6E928D802667A54700D16E76 /* Sources */,
+				6E928D812667A54700D16E76 /* Frameworks */,
+				6E928D822667A54700D16E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E928D8A2667A54700D16E76 /* PBXTargetDependency */,
+			);
+			name = SwiftUITodoAppDemoTests;
+			productName = SwiftUITodoAppDemoTests;
+			productReference = 6E928D842667A54700D16E76 /* SwiftUITodoAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6EF0D5E4265FAB7E00AD6010 /* SwiftUITodoAppDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EF0D5F4265FAB7F00AD6010 /* Build configuration list for PBXNativeTarget "SwiftUITodoAppDemo" */;
@@ -150,6 +200,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					6E928D832667A54700D16E76 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6EF0D5E4265FAB7E00AD6010;
+					};
 					6EF0D5E4265FAB7E00AD6010 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -169,11 +223,19 @@
 			projectRoot = "";
 			targets = (
 				6EF0D5E4265FAB7E00AD6010 /* SwiftUITodoAppDemo */,
+				6E928D832667A54700D16E76 /* SwiftUITodoAppDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6E928D822667A54700D16E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EF0D5E3265FAB7E00AD6010 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,6 +248,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6E928D802667A54700D16E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E928D872667A54700D16E76 /* SwiftUITodoAppDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6EF0D5E1265FAB7E00AD6010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,7 +271,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6E928D8A2667A54700D16E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EF0D5E4265FAB7E00AD6010 /* SwiftUITodoAppDemo */;
+			targetProxy = 6E928D892667A54700D16E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6E928D8C2667A54700D16E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftUITodoAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.descifrador.SwiftUITodoAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUITodoAppDemo.app/SwiftUITodoAppDemo";
+			};
+			name = Debug;
+		};
+		6E928D8D2667A54700D16E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftUITodoAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.descifrador.SwiftUITodoAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUITodoAppDemo.app/SwiftUITodoAppDemo";
+			};
+			name = Release;
+		};
 		6EF0D5F2265FAB7F00AD6010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -363,6 +479,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6E928D8B2667A54700D16E76 /* Build configuration list for PBXNativeTarget "SwiftUITodoAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E928D8C2667A54700D16E76 /* Debug */,
+				6E928D8D2667A54700D16E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EF0D5E0265FAB7E00AD6010 /* Build configuration list for PBXProject "SwiftUITodoAppDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
