@@ -7,9 +7,8 @@
 
 import Foundation
 
-class SignUpFormModelValidator{
+class SignUpFormModelValidator: SignUpFormModelValidatorProtocol{
     
-    	
     func isNameValid(name: String) -> Bool{
         let nameRegEx = "[A-Za-z]{3,15}"
         let namePred = NSPredicate(format:"SELF MATCHES [c] %@", nameRegEx)
