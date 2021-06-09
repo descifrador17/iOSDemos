@@ -31,6 +31,7 @@ class FormPresenterTests: XCTestCase {
         self.formModel = nil
     }
 
+    //MARK: - TESTS FOR SIGNUP PRESENTER
     func testFormPresenter_WhenInformationProvided_WillValidateEachProperty(){
         
         sut.processSignup(formModel: self.formModel)

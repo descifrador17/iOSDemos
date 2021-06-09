@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignupViewController" id="BYZ-38-t0r" customClass="SignupViewController" customModule="Assignment2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0w-8K-KFc">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="541"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="621.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="rJ3-cp-iHq">
-                                                <rect key="frame" x="8" y="8" width="398" height="525"/>
+                                                <rect key="frame" x="8" y="8" width="398" height="605.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Form" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pst-xg-Iin" userLabel="form heading">
                                                         <rect key="frame" x="0.0" y="0.0" width="398" height="29"/>
@@ -37,7 +37,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6BB-4j-JTO">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter first name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6BB-4j-JTO">
                                                         <rect key="frame" x="0.0" y="71.5" width="398" height="34"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="firstNameField"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -49,7 +49,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eV4-a4-hYq">
+                                                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter last name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eV4-a4-hYq">
                                                         <rect key="frame" x="0.0" y="148" width="398" height="34"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="lastNameField"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -61,7 +61,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XDT-Y9-MBS">
+                                                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XDT-Y9-MBS">
                                                         <rect key="frame" x="0.0" y="224.5" width="398" height="34"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="phoneField"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -73,7 +73,7 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T5s-Cq-wCI">
+                                                    <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T5s-Cq-wCI">
                                                         <rect key="frame" x="0.0" y="301" width="398" height="34"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="addressField"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -85,27 +85,39 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dv3-Tu-03N">
+                                                    <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dv3-Tu-03N">
                                                         <rect key="frame" x="0.0" y="377.5" width="398" height="34"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="emailField"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                                     </textField>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of Birth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fz-nO-7u5">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vH-8e-PFR">
                                                         <rect key="frame" x="0.0" y="422.5" width="398" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="U85-Kb-ngN">
-                                                        <rect key="frame" x="0.0" y="454" width="398" height="30"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="EDj-zG-GNa"/>
-                                                        </constraints>
-                                                    </datePicker>
+                                                    <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v4P-Hl-ere">
+                                                        <rect key="frame" x="0.0" y="454" width="398" height="34"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="emailField"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="password"/>
+                                                    </textField>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repeat Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ubr-Dk-Z3j">
+                                                        <rect key="frame" x="0.0" y="499" width="398" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repeat password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vvg-oe-6js">
+                                                        <rect key="frame" x="0.0" y="530.5" width="398" height="34"/>
+                                                        <accessibility key="accessibilityConfiguration" identifier="emailField"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="password"/>
+                                                    </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TzQ-y5-LUC" userLabel="save button">
-                                                        <rect key="frame" x="0.0" y="495" width="398" height="30"/>
-                                                        <state key="normal" title="Save"/>
+                                                        <rect key="frame" x="0.0" y="575.5" width="398" height="30"/>
+                                                        <state key="normal" title="Sign Up"/>
                                                         <connections>
                                                             <action selector="onSaveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BhG-G7-CS0"/>
                                                         </connections>
@@ -143,14 +155,16 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addressField" destination="T5s-Cq-wCI" id="fcO-Xv-Dmy"/>
+                        <outlet property="addressTextField" destination="T5s-Cq-wCI" id="rLe-00-XCk"/>
                         <outlet property="bottomConstraint" destination="QX5-9x-heq" id="iLX-D9-v7A"/>
-                        <outlet property="dobPicker" destination="U85-Kb-ngN" id="3tH-J4-PVs"/>
-                        <outlet property="emailField" destination="dv3-Tu-03N" id="N2U-Jd-Jcx"/>
-                        <outlet property="firstNameField" destination="6BB-4j-JTO" id="RUN-nQ-bYV"/>
-                        <outlet property="lastNameField" destination="eV4-a4-hYq" id="he3-EG-9GQ"/>
-                        <outlet property="phoneField" destination="XDT-Y9-MBS" id="DoT-xn-0bQ"/>
+                        <outlet property="emailTextField" destination="dv3-Tu-03N" id="vJJ-LL-9bA"/>
+                        <outlet property="firstNameTextField" destination="6BB-4j-JTO" id="nRl-Vl-wjr"/>
+                        <outlet property="lastNameTextField" destination="eV4-a4-hYq" id="fnI-NM-jx1"/>
+                        <outlet property="passwordTextField" destination="v4P-Hl-ere" id="ioA-zB-KEq"/>
+                        <outlet property="phoneNumberTextField" destination="XDT-Y9-MBS" id="p34-ld-ikK"/>
+                        <outlet property="repeatPasswordTextField" destination="Vvg-oe-6js" id="gbt-ON-ELn"/>
                         <outlet property="scrollView" destination="Zpa-6f-l5g" id="Pfb-Gt-hsR"/>
+                        <outlet property="signupButton" destination="TzQ-y5-LUC" id="wmW-T6-mHD"/>
                         <outlet property="topConstraint" destination="ITP-Cy-2A7" id="Vnn-Ii-LRF"/>
                     </connections>
                 </viewController>
@@ -220,15 +234,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKS-DO-U6f">
-                                <rect key="frame" x="16" y="310.5" width="382" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="BhH-CM-4Qs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NxU-Zg-unA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -239,15 +244,12 @@
                             <constraint firstItem="NxU-Zg-unA" firstAttribute="trailing" secondItem="NWy-Cf-RoO" secondAttribute="trailing" constant="16" id="BsO-hi-7Cj"/>
                             <constraint firstItem="Z3i-XE-trO" firstAttribute="top" secondItem="NzM-uI-Bqa" secondAttribute="bottom" constant="16" id="Fy7-r6-rkA"/>
                             <constraint firstItem="5Jk-2V-RYZ" firstAttribute="leading" secondItem="NxU-Zg-unA" secondAttribute="leading" constant="16" id="G1V-TE-96p"/>
-                            <constraint firstItem="NxU-Zg-unA" firstAttribute="trailing" secondItem="DKS-DO-U6f" secondAttribute="trailing" constant="16" id="Khr-tb-l8g"/>
                             <constraint firstItem="NWy-Cf-RoO" firstAttribute="top" secondItem="Z3i-XE-trO" secondAttribute="bottom" constant="16" id="Ori-aA-YFh"/>
                             <constraint firstItem="NxU-Zg-unA" firstAttribute="trailing" secondItem="Z3i-XE-trO" secondAttribute="trailing" constant="16" id="PJv-vg-vko"/>
                             <constraint firstItem="5Jk-2V-RYZ" firstAttribute="top" secondItem="NWy-Cf-RoO" secondAttribute="bottom" constant="16" id="RZ8-2b-iIG"/>
                             <constraint firstItem="9hI-Ao-bNa" firstAttribute="top" secondItem="NxU-Zg-unA" secondAttribute="top" constant="32" id="Sh7-dY-nWM"/>
-                            <constraint firstItem="DKS-DO-U6f" firstAttribute="leading" secondItem="NxU-Zg-unA" secondAttribute="leading" constant="16" id="W2P-kg-TBr"/>
                             <constraint firstItem="Fgz-yO-eSS" firstAttribute="top" secondItem="9hI-Ao-bNa" secondAttribute="bottom" constant="24" id="Ycd-0T-lIl"/>
                             <constraint firstItem="NxU-Zg-unA" firstAttribute="trailing" secondItem="5Jk-2V-RYZ" secondAttribute="trailing" constant="16" id="b3m-ij-JyN"/>
-                            <constraint firstItem="DKS-DO-U6f" firstAttribute="top" secondItem="5Jk-2V-RYZ" secondAttribute="bottom" constant="16" id="cnF-it-Qo5"/>
                             <constraint firstItem="Fgz-yO-eSS" firstAttribute="leading" secondItem="NxU-Zg-unA" secondAttribute="leading" constant="16" id="fhS-iG-315"/>
                             <constraint firstItem="Z3i-XE-trO" firstAttribute="leading" secondItem="NxU-Zg-unA" secondAttribute="leading" constant="16" id="gam-AP-88f"/>
                             <constraint firstItem="NWy-Cf-RoO" firstAttribute="leading" secondItem="NxU-Zg-unA" secondAttribute="leading" constant="16" id="hte-S4-9en"/>
@@ -258,7 +260,6 @@
                     </view>
                     <connections>
                         <outlet property="addressLabel" destination="NWy-Cf-RoO" id="UyP-fv-GfD"/>
-                        <outlet property="dobLabel" destination="DKS-DO-U6f" id="g9i-Mf-QYh"/>
                         <outlet property="emailLabel" destination="5Jk-2V-RYZ" id="LbE-Ze-fMG"/>
                         <outlet property="firstNameLabel" destination="Fgz-yO-eSS" id="77f-UD-TR9"/>
                         <outlet property="lastNameLabel" destination="NzM-uI-Bqa" id="BYz-jZ-4Nm"/>

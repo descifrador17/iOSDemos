@@ -7,12 +7,12 @@
 
 import Foundation
 
-class FormPresenter{
+class FormPresenter: SignupPresenterProtocol{
     
     private var formModelValidator: FormModelValidatorProtocol
     private var delegate: SignupViewDelegateProtocol
     
-    init(formModelValidator: FormModelValidatorProtocol, delegate: SignupViewDelegateProtocol) {
+    required init(formModelValidator: FormModelValidatorProtocol, delegate: SignupViewDelegateProtocol) {
         self.formModelValidator = formModelValidator
         self.delegate = delegate
     }
