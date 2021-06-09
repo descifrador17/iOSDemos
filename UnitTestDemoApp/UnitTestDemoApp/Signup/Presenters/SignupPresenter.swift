@@ -7,13 +7,13 @@
 
 import Foundation
 
-class SignupPresenter{
+class SignupPresenter: SignupPresenterProtocol{
     
     private var formModelValidator: SignUpFormModelValidatorProtocol
     private var signupWebService: SignupWebServiceProtocol
     private var delegate: SignupViewDelegateProtocol
     
-    init(formModelValidator: SignUpFormModelValidatorProtocol, signupWebService: SignupWebServiceProtocol, delegate: SignupViewDelegateProtocol) {
+    required init(formModelValidator: SignUpFormModelValidatorProtocol, signupWebService: SignupWebServiceProtocol, delegate: SignupViewDelegateProtocol) {
         self.formModelValidator = formModelValidator
         self.signupWebService = signupWebService
         self.delegate = delegate
@@ -40,6 +40,11 @@ class SignupPresenter{
             
         self.signupWebService.signup(withFormModel : requestModel){[weak self] (signupResponseModel, error) in
             //Working
+            if let error = error {
+                self?.delegate.errorHandler(error: error)
+                return
+            }
+            
             if let _ = signupResponseModel{
                 self?.delegate.successfulSignup()
                 return
